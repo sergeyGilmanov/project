@@ -10,6 +10,7 @@ let gulp = require('gulp'),
     cssMin = require('gulp-csso'),
     babel = require('gulp-babel'),
     util = require('gulp-util'),
+    imagemin = require('gulp-imagemin'),
     jsonMinify = require('gulp-json-minify');
 
 
@@ -21,7 +22,9 @@ const paths = {
     projectCss: 'dist/css',
     projectJs: 'dist/js',
     devJson: 'dev/json/**/*.json',
-    projrctJson: 'dist/json'
+    projrctJson: 'dist/json',
+    picDev: 'dev/html/img/**/*',
+    picDist: 'dist/img'
 };
 
 
@@ -33,6 +36,11 @@ gulp.task('html', () => {
         .pipe(gulp.dest(paths.project)); // Сохранение файла
 });
 
+gulp.task('pic', () =>
+    gulp.src(paths.picDev)
+        .pipe(imagemin())
+        .pipe(gulp.dest(paths.picDist))
+);
 
 gulp.task('sass', () => {
     return gulp.src(paths.devSass)
@@ -96,4 +104,4 @@ gulp.task('html:watch', () => {
         done();
     }));
 });
-gulp.task('default', gulp.series('clean', gulp.parallel('server', 'html', 'sass', 'js:es6', 'js:babel', 'sass:watch', 'html:watch', 'js:watch', 'json')));
+gulp.task('default', gulp.series('clean', gulp.parallel('server', 'pic', 'html', 'sass', 'js:es6', 'js:babel', 'sass:watch', 'html:watch', 'js:watch', 'json')));

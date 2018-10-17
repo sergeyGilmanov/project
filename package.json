@@ -23,6 +23,7 @@
     "gulp-rename": "^1.4.0",
     "gulp-sass": "^4.0.1",
     "gulp-uglifyes": "^0.2.1",
-    "gulp-util": "^3.0.8"
+    "gulp-util": "^3.0.8",
+    "gulp-imagemin": "^4.1.0"
   }
 }
