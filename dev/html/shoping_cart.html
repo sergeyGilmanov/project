@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>BRAND</title>
+    <link rel="shortcut icon" href="img/logo.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/shoping_cart.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container header-flex">
+            <div class="header-left">
+                <a class="logo" href="index.html"><img src="img/logo%20(10).png" alt="logo">BRAN<span>D</span></a>
+                <form class="form" action="#">
+                    <div class="button-form">
+                        <pre>Browse &nbsp; <i class="fa fa-sort-desc" aria-hidden="true"></i></pre>
+                    </div>
+                    <input class="input" type="text" placeholder="   Search for Item...">
+                    <button><i class="fa fa-search" aria-hidden="true"></i></button>
+                </form>
+            </div>
+            <div class="header-right">
+                <div class="wrapper-cart">
+                    <a class="cart-box mainCart" href="shoping_cart.html"><img src="img/cart%20(2).svg" alt="cart"></a>
+                    <div class="block-cart">
+                       <div class="goods">
+                            
+                        </div>
+                        <div class="total-price-mini-cart">
+                          <p class = "base-txt">Cart the empty</p>
+                           </div>
+                        
+                        <a class="cart-box" href="checkout.html"><div class='buyBtn'>Checkout</div></a>
+                        <a class="cart-box" href="shoping_cart.html"><div class='buyBtn'>Go to cart</div></a>
+
+                    </div>
+                </div>
+                <a class="button-account" href="checkout.html"><pre>My Account</pre></a>
+            </div>
+        </div>
+    </header>
+    <nav class="nav">
+        <div class="container">
+            <ul class="menu">
+                <li><a class="menu-active" href="index.html">Home</a></li>
+                <li><a href="#">Man</a>
+                    <div class="mega-box">
+                        <div class="mega-flex">
+                            <h3>MEN</h3>
+                            <ul class="mega-list">
+                                <li><a href="#">Dresses</a></li>
+                                <li><a href="#">Tops</a></li>
+                                <li><a href="#">Sweaters/Knits</a></li>
+                                <li><a href="#">Jackets/Coats</a></li>
+                                <li><a href="#">Blazers</a></li>
+                                <li><a href="#">Denim</a></li>
+                                <li><a href="#">Leggings/Pants</a></li>
+                                <li><a href="#">Skirts/Shorts</a></li>
+                                <li><a href="#">Accessories </a></li>
+                            </ul>
+                        </div>
+                        <div class="mega-flex">
+                            <h3>MEN</h3>
+                            <ul class="mega-list">
+                                <li><a href="product.html">NEW ARRIVALS</a></li>
+                                <li><a href="#">Tops</a></li>
+                                <li><a href="#">Sweaters/Knits</a></li>
+                                <li><a href="#">Jackets/Coats</a></li>
+                                <li><a href="#">Blazers</a></li>
+                                <li><a href="#">Denim</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="#">Women</a></li>
+                <li><a href="#">Kids</a></li>
+                <li><a href="#">Accoseriese</a></li>
+                <li><a href="#">Featured</a></li>
+                <li><a href="#">Hot Deals</a></li>
+            </ul>
+        </div>
+    </nav>
+    <header class="mini-head">
+        <div class="min-head container">
+            <h1>Shoping Cart</h1>
+            <div class="broadcrambs">
+                <a href="index.html">Home</a> /
+
+                <a href="#">Shoping Cart</a>
+            </div>
+        </div>
+    </header>
+    <article class="content">
+        <div class="products-filter container">
+            <div class="raw1">
+                <div class="colums1">
+                    <p>Product Details</p>
+                </div>
+                <div class="colums">
+                    <p>unite Price</p>
+                </div>
+                <div class="colums">
+                    <p>Quantity</p>
+                </div>
+                <div class="colums">
+                    <p>shipping</p>
+                </div>
+                <div class="colums">
+                    <p>Subtota</p>
+                </div>
+                <div class="colums">
+                    <p>lACTION</p>
+                </div>
+            </div>
+            <div class="goods-wrapper">
+            <!--<div class="raw ">
+                <div class="colums1">
+                    <img src="img/cart/Layer1.png" alt="img">
+                    <div class="txt1">
+                        <span class="head-txt">Mango  People  T-shirt</span>
+                        <p>Color: Red <br> Size: Xll</p>
+                    </div>
+                </div>
+                <div class="colums">
+                    <p class='unit-price'></p>
+                </div>
+                <div class="colums">
+                    <form><input class='input-qnt' type="number" value='1' min="0"></form>
+                </div>
+                <div class="colums">
+                    <p>FREE</p>
+                </div>
+                <div class="colums">
+                    <p class='subtotal'></p>
+                </div>
+                <div class="colums"><i class="fa fa-times-circle" aria-hidden="true"></i></div>
+            </div>-->
+            </div>
+            <div class="button-product container">
+                <div id='clear' class="all-product">
+                        <p>CLEAR SHOPPING CART</p>
+                </div>
+
+                <div class="all-product">
+                    <a href="product.html">
+                        <p>CONTINUE SHOPPING</p>
+                    </a>
+                </div>
+            </div>
+            <div class="delivery container">
+                <div class="country">
+                    <p>Shipping Adress</p>
+                    <select>
+                    <option disabled>---Country---</option>
+                    <option>USA</option>
+                    <option>China</option>
+                    <option>Brasil</option>
+                    <option>Russhian Federetion</option>
+                    <option>Australia</option>
+                </select>
+                    <form>
+                        <input type="text" placeholder="State">
+                    </form>
+                    <form>
+                        <input type="text" placeholder="Postcode / Zip">
+                    </form>
+                    <div class="contry-join">
+                        <a href="#">
+                            <p>get a quote</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="promo">
+                    <p>coupon discount</p>
+                    <span> Enter your coupon code if you have one</span>
+                    <form>
+                        <input type="text" placeholder="State">
+                    </form>
+                    <div class="contry-join">
+                        <a href="#">
+                            <p>Apply coupon</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="submit">
+                    <div class="ground">
+                        <span class="txt_2str">GRAND TOTAL</span> <span class="txt_2str1"></span>
+                    </div>
+                    <div class="apply">
+                        <a href="#">
+                            <p>proceed to checkout</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+    <footer class="footer">
+        <div class="bcg">
+            <div class="picture1"></div>
+            <div class="main-layer container">
+                <div class="avatar">
+                    <img src="img/Layer40.png" alt="photo">
+                    <div class="txt">
+                        <p>“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”</p>
+                        <div class="bottom-txt">
+                            <p><span>Bin Burhan</span><br>Dhaka, Bd</p>
+                        </div>
+                        <div class="button-bottom">
+                            <div class="button-mini"></div>
+                            <div class="button-mini"></div>
+                            <div class="button-mini"></div>
+                        </div>
+                    </div>
+                    <div class="subscribe">
+                        <p>Subscribe<br><span>FOR OUR NEWLETTER AND PROMOTION</span></p>
+                        <form class="form2" action="#">
+                            <input type="Email" placeholder="   Enter Your Email">
+                            <a href="checkout.html">
+                                <div class="button-form2">Subscribe</div>
+                            </a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <nav class="nav-footer container">
+                <div class="set1">
+                    <img src="img/logo%20(10).png" alt="logo">BRAN<span>D</span>
+                    <p>Objectively transition extensive data rather than cross functional solutions. Monotonectally syndicate multidisciplinary materials before go forward benefits. Intrinsicly syndicate an expanded array of processes and cross-unit partnerships. </p>
+                    <p>Efficiently plagiarize 24/365 action items and focused infomediaries. Distinctively seize superior initiatives for wireless technologies. Dynamically optimize.</p>
+                </div>
+                <div class="set2">
+                    <p>COMPANY</p>
+                    <a href="index.html">Home<br></a>
+                    <a href="#">Shop<br></a>
+                    <a href="#">About<br></a>
+                    <a href="#">How It Works<br></a>
+                    <a href="#">Contact<br></a>
+                </div>
+                <div class="set2">
+                    <p>INFORMATION</p>
+                    <a href="#">Tearms & Condition<br></a>
+                    <a href="#">Privacy Policy<br></a>
+                    <a href="#">How to Buy<br></a>
+                    <a href="#">How to Sell<br></a>
+                    <a href="#">Promotion<br></a>
+                </div>
+                <div class="set2">
+                    <p>SHOP CATEGORY</p>
+                    <a href="#">Men<br></a>
+                    <a href="#">Women<br></a>
+                    <a href="#">Child<br></a>
+                    <a href="#">Apparel<br></a>
+                    <a href="#">Brows All<br></a>
+                </div>
+            </nav>
+            <div class="bottom-footer">
+                <div class="container1">
+                    <div class="bottom-footer-left">
+                        <p>© 2017 Brand All Rights Reserved.</p>
+                    </div>
+                    <div class="bottom-footer-right">
+                        <a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-pinterest-square" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-google-plus-square" aria-hidden="true"></i></a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src='js/minCart.js'></script>
+    <script src='js/cart.js'></script>
+</body>
+
+</html>

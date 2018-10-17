@@ -1,0 +1,50 @@
+{
+    "100101":{
+        "name":" Mango People T-shirt",
+        "price": "50",
+        "img": "img/Layer9.png",
+        "qnt": "1"
+    },
+    "100102":{
+        "name": "Mango People T-shirt",
+        "price": "175",
+        "img": "img/Layer2.png",
+        "qnt": "1"
+    },
+    "100103":{
+        "name": "Mango People T-shirt",
+        "price": "90",
+        "img": "img/Layer3.png",
+        "qnt": "1"
+    },
+    "100104":{
+        "name": "Mango People T-shirt",
+        "price": "93",
+        "img": "img/Layer4.png",
+        "qnt": "1"
+    },
+    "100105":{
+        "name": "Mango People T-shirt",
+        "price": "100",
+        "img": "img/Layer5.png",
+        "qnt": "1"
+    },
+    "100106":{
+        "name": "Mango People T-shirt",
+        "price": "143",
+        "img": "img/Layer6.png",
+        "qnt": "1"
+    },"100107":{
+        "name": "Mango People T-shirt",
+        "price": "199",
+        "img": "img/Layer7.png",
+        "qnt": "1"
+    },
+    "100108":{
+        "name": "Mango People T-shirt",
+        "price": "99",
+        "img": "img/Layer8.png",
+        "qnt": "1"
+    }
+
+}
